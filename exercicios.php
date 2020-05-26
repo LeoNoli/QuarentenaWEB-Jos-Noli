@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8"/>
-        <title>Exercício Quarentena</title>
+        <title>Title</title>
     </head>
     <body>
         <?php
@@ -19,11 +19,11 @@
                 </form>';
             }
             else{
-                $n1=$_POST["n1"];
-                $n2=$_POST["n2"];
-                $resp=$n1+$n2;
+                $num1=$_POST["num1"];
+                $num2=$_POST["num2"];
+                $resp=$num1+$num2;
 
-                echo '<form action="exequarentena.php" method="POST">
+                echo '<form action="exercicios.php" method="POST">
                     <input type="text" name="num1" value="'.$num1.'" placeholder="Digite um valor..."/> +
                     <input type="text" name="num2" value="'.$num2.'" placeholder="Digite um valor..."/> =	
                     <input type="text" name="resp" value="'.$resp.'"placeholder="Resposta..."/>
